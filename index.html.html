@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible">
+    <title>Page Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Great+Vibes&family=Roboto+Condensed:wght@300&display=swap" 
+    rel="stylesheet">
+    <style>
+        body{
+            padding: 20px !important
+        }
+       
+        .cover{
+            width: 900px;
+            height: 4600px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0px !important;
+            border-top-left-radius: 45px;
+            border-top-right-radius: 45px;
+            background-color: #1f1527;
+            position: relative;
+        }
+
+        .innercover{
+            height: 4500px;
+            width: 800px;
+            margin: 50px;
+            border: 2px dotted white;
+            border-top-left-radius: 45px;
+            border-top-right-radius: 45px;
+            position: absolute;
+            z-index: 33;
+        }
+        .coverheading{
+            height: 40px;
+            width: 220px;
+            position: absolute;
+            background-color: #1f1527;
+            color: white;
+            left: 275px;
+            top: -20px;
+            line-height: 40px;
+            padding-left: 50px;
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size : 30px;
+        }
+        .firstDiv
+        {
+            height: 500px;
+            width: 900px;
+            border-top-left-radius: 45px;
+            border-top-right-radius: 45px;
+        }
+/* 
+        .secondDiv{
+            height: 400px;
+            width: 900px;
+            transform: skewY(-5deg);
+            background-color: #f2e8df;
+        }
+
+        .thirdDiv{
+            height: 400px;
+            width: 900px;
+            transform: skewY(-5deg);
+            background-color: #1f1527;
+            border: 1px solid white;
+        }
+        .fourthDiv{
+            height: 400px;
+            width: 900px;
+            background-color: #f2e8df;
+            transform: skewY(-5deg);
+        } */
+        .maincontainer > div:not(:first-of-type):nth-of-type(odd)
+        {
+            height: 400px;
+            width: 900px;
+            transform: skewY(-5deg);
+            background-color: #1f1527;
+        }
+        .maincontainer > div:not(:first-of-type):nth-of-type(even)
+        {
+            height: 400px;
+            width: 900px;
+            background-color: #f2e8df;
+            transform: skewY(-5deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="cover">
+        <div class="innercover">
+            <div class="coverheading">
+                IFACTORY
+            </div>
+        </div>
+        <div class="maincontainer">
+            <div class="firstDiv">
+                <div style="padding: 160px 100px;text-align: center;">
+                <span style="display: inline-block;font-family:'Great Vibes', cursive;font-size: 65px ; color: #dfd5cf;
+                 letter-spacing: 9px;font-style:italic">S</span>
+                <span style="display: inline-block;font-family: 'Cormorant Garamond', serif; font-size: 30px; 
+                color: #e3bfc1; letter-spacing: 9px">CROLLING IN WEB DESIGN </span>
+                <div style="font-family: 'Roboto Condensed', sans-serif; color: white; 
+                letter-spacing: 9px;font-size: 30px; font-weight: lighter; margin-top: 90px;text-shadow: 1px 1px lightgray">
+                    THE LONG AND SHORT OF IT 
+                </div>
+                </div>
+                
+            </div>
+            <div class="secondDiv">
+                <div style="transform: skewY(5deg);padding: 80px 90px;margin-left: 90px; margin-right: 90px;">
+                    <span style="display: inline-block;font-family:'Great Vibes', cursive;font-size: 60px ; color:black;
+                    letter-spacing: 9px;font-style:italic">L</span>
+                    <span style="display: inline-block;font-family: 'Cormorant Garamond', serif; font-size: 40px; 
+                    color: black;">ONG SCROLL:</span>
+                    <span style="display: inline-block;font-family: 'Cormorant Garamond', serif; font-size: 23px; 
+                    color: black;">THE GOOD STUFF</span>
+                    <div style="font-family: 'Cormorant Garamond', serif; font-size: 25px; 
+                    color: black;">VISUAL CREATIVITY</div>
+                    <div style="font-family: 'Cormorant Garamond', serif; font-size: 19px; 
+                    color: black;margin-top: 20px">
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin 
+                            literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney 
+                            College in Virginia, looked up one of the more obscure Latin words, consectetur.
+                    </div>
+                </div>
+            </div>
+            <div class="thirdDiv">
+
+            </div>
+            <div class="fourthDiv">
+
+            </div>
+            <div class="fifthDiv">
+
+            </div>
+            <div class="sixthDiv">
+
+            </div>
+            <div class="seventhDiv">
+
+            </div>
+            <div class="eightDiv">
+
+            </div>
+            <div class="ninethDiv">
+
+            </div>
+            <div class="tenthDiv">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
